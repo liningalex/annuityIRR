@@ -109,7 +109,7 @@ public class AnnuityIRR {
         double firstPayout = 70000;
 
         double payoutGrowth = 0.0; // 3% annual increase (COLA)
-        double inflation = 0.0;    // 3% inflation
+        double inflation = 0.025;    // 3% inflation
 
         int[] testAges = {80, 85, 90, 95};
 

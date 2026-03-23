@@ -30,18 +30,35 @@ different lifespan scenarios.
 
 ## 🚀 How to Run
 
-Compile: javac COLAAnnuityIRR.java
+Compile: javac AnnuityIRR.java
 
-Run: java COLAAnnuityIRR
+Run: java AnnuityIRR
 
 ------------------------------------------------------------------------
 
-## 📊 Example Scenario
+## 📊 Example Scenario 1
 
 -   Age 60: Invest \$500,000
 -   Age 70: Start receiving \$70,000/year
--   Payout grows at 3% annually
--   Inflation = 3%
+-   Payout grows at 0% annually
+-   Inflation = 0%
+### Sample Output
+-   Live to 80 → Real IRR = 2.95%
+-   Live to 85 → Real IRR = 4.86%
+-   Live to 90 → Real IRR = 5.85%
+-   Live to 95 → Real IRR = 6.41%
+
+## 📊 Example Scenario 2
+
+-   Age 60: Invest \$500,000
+-   Age 70: Start receiving \$70,000/year
+-   Payout grows at 0% annually
+-   Inflation = 0.025%
+### Sample Output
+-   Live to 80 → Real IRR = 0.44%
+-   Live to 85 → Real IRR = 2.30%
+-   Live to 90 → Real IRR = 3.27%
+-   Live to 95 → Real IRR = 3.82%
 
 ------------------------------------------------------------------------
 
